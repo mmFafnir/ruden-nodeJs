@@ -1,5 +1,7 @@
 const axios = require('axios');
-const bathHTML = require('../pages/bath')
+const bathHTML = require('../pages/bath');
+const indexHTNL = require('../pages/index')
+
 const url = 'https://ruden-design.ru/json/www.json';
 
 
@@ -152,13 +154,10 @@ fetchdata()
 
 const router = (app) => {
     app.get('/', (req, res) => {
-        res.send({
-            message: 'work'
-        });
+        res.send(indexHTNL());
     });
 
     app.get('/cards', (req, res) => {
-
         res.send(products)
     });
 

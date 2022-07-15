@@ -1,15 +1,19 @@
 // Require packages and set the port
 const express = require('express');
+
+const cors = require('cors');
+
 const bodyParser = require('body-parser');
 const routes = require('./routes/routes');
-
 
 const port = 3002;
 
 
 const app = express();
 
-// Use Node.js body parsing middleware
+app.use(cors());
+
+
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({
     extended: true,

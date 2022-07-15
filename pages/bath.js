@@ -8,14 +8,14 @@ const bathHTML = (obj) => {
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <title>${obj.title}</title>
-      <link rel="stylesheet" href="css/modal.css">
-      <link rel="stylesheet" href="css/fancybox.css">
-      <link rel="stylesheet" href="css/font.css">
-      <link rel="stylesheet" href="css/basket.css">
-      <link rel="stylesheet" href="css/swiper.css">
-      <link rel="stylesheet" href="product/css/style.css">
-      <link rel="stylesheet" href="product/css/slider.css">
-      <link rel="stylesheet" href="product/css/product.css">
+      <link rel="stylesheet" href="https://ruden-design.ru/css/modal.css">
+      <link rel="stylesheet" href="https://ruden-design.ru/css/fancybox.css">
+      <link rel="stylesheet" href="https://ruden-design.ru/css/font.css">
+      <link rel="stylesheet" href="https://ruden-design.ru/css/basket.css">
+      <link rel="stylesheet" href="https://ruden-design.ru/css/swiper.css">
+      <link rel="stylesheet" href="https://ruden-design.ru/product/css/style.css">
+      <link rel="stylesheet" href="https://ruden-design.ru/product/css/slider.css">
+      <link rel="stylesheet" href="https://ruden-design.ru/product/css/product.css">
     
     </head>
     <body class="product-page" data-id="${obj.vendoreCode}">
@@ -55,7 +55,7 @@ const bathHTML = (obj) => {
         </header>
       <main>
         <div class="first-block">
-          <img src="img/triangle.svg" alt="">
+          <img src="https://ruden-design.ru/img/triangle.svg" alt="">
         </div>
         <div class="container">
           <div class="card" >
@@ -131,7 +131,7 @@ const bathHTML = (obj) => {
                         </span>
                     </div>
                      <div class="give_box">
-                         <img src="img/подарок.png" alt="">
+                         <img src="https://ruden-design.ru/img/подарок.png" alt="">
                          <a href=""><button id='submit' type="submit">Выбрать подарок</button></a>
                      </div>
                  </div>
@@ -185,11 +185,11 @@ const bathHTML = (obj) => {
                     <form id="form" method="POST" action="php_js/email.php">
                        <div class="input-delivery">
                          <input data-price="0" form="form" type="radio" checked name="delivery" value="Самовывоз" id="pickup">
-                         <label for="pickup"><img src="img/cart.svg" alt=""><span>Самовывоз</span></label>
+                         <label for="pickup"><img src="https://ruden-design.ru/img/cart.svg" alt=""><span>Самовывоз</span></label>
                        </div>
                        <div class="input-delivery">
                          <input data-price="1000" form="form" type="radio" checked name="delivery" value="Доставка" id="delivery">
-                         <label for="delivery"><img src="img/car.svg" alt=""><span>Доставка</span></label>
+                         <label for="delivery"><img src="https://ruden-design.ru/img/car.svg" alt=""><span>Доставка</span></label>
                        </div>
                     </form>
                 </div>
@@ -244,15 +244,15 @@ const bathHTML = (obj) => {
       </div>
     </div>   
     
-      <script defer src="js/addToCart.js"></script>
-      <script defer src="js/jquery-2.1.1.js"></script>
-      <script defer src="js/swiper.js"></script>
-      <script defer src="js/fensybox.js"></script>
-      <!-- <script defer src="product/js/product.js"></script> -->
-      <script defer src="js/script.js"></script>
-      <script src="php_js/jquery-3.6.0.min.js"></script>
-      <script src="js/maskedInput.js"></script>
-      <script src="php_js/form.js"></script>
+      <script defer src="https://ruden-design.ru/js/addToCart.js"></script>
+      <script defer src="https://ruden-design.ru/js/jquery-2.1.1.js"></script>
+      <script defer src="https://ruden-design.ru/js/swiper.js"></script>
+      <script defer src="https://ruden-design.ru/js/fensybox.js"></script>
+      <!-- <script defer src="https://ruden-design.ru/product/js/product.js"></script> -->
+      <script defer src="https://ruden-design.ru/js/script.js"></script>
+      <script src="https://ruden-design.ru/php_js/jquery-3.6.0.min.js"></script>
+      <script src="https://ruden-design.ru/js/maskedInput.js"></script>
+      <script src="https://ruden-design.ru/php_js/form.js"></script>
     </body>
     </html>`
     
